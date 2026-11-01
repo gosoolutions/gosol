@@ -1,0 +1,44 @@
+{
+  "businessName": "Go Solutions",
+  "legalName": "",
+  "registrationNumber": "",
+  "registeredIn": "China",
+  "address": "",
+  "email": "",
+  "whatsapp": "+264816275279",
+  "supportHours": "Monday to Friday, 9:00 to 18:00 China time (UTC+8)",
+  "defaultCurrency": "USD",
+  "currencies": [
+    { "code": "USD", "symbol": "US$", "rate": 1, "decimals": 2 },
+    { "code": "MYR", "symbol": "RM", "rate": 4.4, "decimals": 2 },
+    { "code": "CNY", "symbol": "CN¥", "rate": 7.1, "decimals": 2 },
+    { "code": "GBP", "symbol": "£", "rate": 0.78, "decimals": 2 },
+    { "code": "TZS", "symbol": "TSh", "rate": 2600, "decimals": 0 }
+  ],
+  "booking": {
+    "timezone": "Asia/Shanghai",
+    "timezoneLabel": "China time (UTC+8)",
+    "days": [1, 2, 3, 4, 5],
+    "slots": ["09:00", "10:30", "14:00", "15:30", "17:00"],
+    "leadDays": 1,
+    "horizonDays": 21
+  },
+  "payments": {
+    "methods": {
+      "card": { "enabled": true, "label": "Visa or Mastercard", "note": "Pay on our payment partner's secure page.", "maxBaseTotal": 10000 },
+      "alipay": { "enabled": true, "label": "Alipay", "note": "Scan or log in to Alipay on the next page.", "maxBaseTotal": 10000 },
+      "wechat": { "enabled": true, "label": "WeChat Pay", "note": "Scan the QR code with WeChat on the next page.", "maxBaseTotal": 10000 },
+      "paypal": { "enabled": true, "label": "PayPal", "note": "Pay with your PayPal balance or a card saved in PayPal.", "currencies": ["USD", "GBP"], "maxBaseTotal": 10000 },
+      "bank": { "enabled": true, "label": "Bank transfer", "note": "We show our bank details next. Best for large orders.", "holdDays": 5 }
+    },
+    "bank": {
+      "bankName": "",
+      "accountName": "",
+      "accountNumber": "",
+      "swift": "",
+      "bankAddress": "",
+      "currencyNote": "Send the exact amount shown, in the currency of your order."
+    }
+  },
+  "unpaidExpiryMinutes": 60
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "gopos-licence",
+    "sample": true,
+    "name": "GoPOS Retail Licence",
+    "type": "licence",
+    "price": 490,
+    "unit": "per shop",
+    "stock": 50,
+    "stockUnit": "licence",
+    "maxQty": 10,
+    "tagline": "Point of sale and stock control for one shop. Pay once, yours to keep.",
+    "description": "GoPOS is a point-of-sale and inventory app for small and mid-size shops. It runs in the browser on any laptop or tablet, keeps working when the internet drops, and syncs when you're back online.",
+    "features": [
+      "Sales, receipts and daily cash-up",
+      "Stock levels with low-stock alerts",
+      "Staff logins with roles",
+      "Sales reports you can export to Excel",
+      "12 months of updates included"
+    ],
+    "delivery": "Licence key and setup guide by email within 24 hours of payment."
+  },
+  {
+    "id": "gostock-cloud",
+    "sample": true,
+    "name": "GoStock Inventory Cloud",
+    "type": "subscription",
+    "price": 79,
+    "interval": "month",
+    "stock": null,
+    "maxQty": 1,
+    "tagline": "Stock across every branch and warehouse in one dashboard.",
+    "description": "A hosted inventory system for businesses with more than one location. Track stock moves between branches, set reorder points and see what's selling where.",
+    "features": [
+      "Unlimited products and up to 10 locations",
+      "Transfers, purchase orders and stock counts",
+      "Barcode scanning from any phone",
+      "Daily backups",
+      "Email support within 1 business day"
+    ],
+    "delivery": "Your account is ready within 1 business day. Billed monthly, cancel with 30 days' notice."
+  },
+  {
+    "id": "website-build",
+    "sample": true,
+    "name": "Business Website Build",
+    "type": "service",
+    "price": 1800,
+    "stock": 4,
+    "stockUnit": "project slot",
+    "maxQty": 1,
+    "tagline": "A fast, mobile-ready website for your business, live in about 3 weeks.",
+    "description": "We design and build a website of up to 8 pages, set up your domain and email, and hand it over with a short training call so you can update it yourself.",
+    "features": [
+      "Up to 8 pages, designed for mobile first",
+      "Contact form and WhatsApp button",
+      "Domain, SSL and business email setup",
+      "Basic search engine setup",
+      "30 days of fixes after launch"
+    ],
+    "delivery": "Kick-off call within 3 business days of payment."
+  },
+  {
+    "id": "custom-software",
+    "sample": true,
+    "name": "Custom Software Build",
+    "type": "service",
+    "price": 12000,
+    "stock": 2,
+    "stockUnit": "project slot",
+    "maxQty": 1,
+    "tagline": "Your own system, designed around how your team already works.",
+    "description": "A fixed-price project of up to 10 weeks. We map your process, design the screens with you, then build, test and launch in weekly milestones you can see.",
+    "features": [
+      "Discovery workshop and written scope",
+      "Clickable design before any code",
+      "Weekly demos and progress reports",
+      "Web app with admin dashboard",
+      "60 days of support after launch"
+    ],
+    "delivery": "Project plan and timeline within 5 business days of payment."
+  },
+  {
+    "id": "enterprise-integration",
+    "sample": true,
+    "name": "Enterprise Systems Integration",
+    "type": "service",
+    "price": 48000,
+    "stock": 1,
+    "stockUnit": "project slot",
+    "maxQty": 1,
+    "tagline": "Connect your ERP, payments and logistics into one flow.",
+    "description": "For companies running several systems that don't talk to each other. We connect them through a central integration layer, move your data across, and monitor it after go-live.",
+    "features": [
+      "Integration design and data mapping",
+      "Connectors for ERP, accounting and logistics",
+      "Data migration with checks",
+      "Monitoring and alerts after go-live",
+      "6 months of priority support"
+    ],
+    "delivery": "Lead engineer assigned and kick-off scheduled within 5 business days of payment."
+  },
+  {
+    "id": "discovery-call",
+    "sample": true,
+    "name": "Discovery Call",
+    "type": "booking",
+    "price": 200,
+    "stock": null,
+    "maxQty": 1,
+    "durationMin": 60,
+    "tagline": "60 minutes with a senior engineer. The fee comes off any project you order.",
+    "description": "Not sure what you need yet? Walk us through your business and the problem you want solved. You leave with a recommended solution, a price range and a timeline.",
+    "features": [
+      "Video call on Zoom, Google Meet or WeChat",
+      "Written summary within 2 business days",
+      "Price range and timeline for your project",
+      "Fee credited to any project you order within 30 days"
+    ],
+    "delivery": "Calendar invite and call link by email right after payment."
+  },
+  {
+    "id": "managed-support",
+    "sample": true,
+    "name": "Managed Hosting & Support",
+    "type": "subscription",
+    "price": 250,
+    "interval": "month",
+    "stock": null,
+    "maxQty": 1,
+    "tagline": "We keep your website or app online, updated and backed up.",
+    "description": "Hosting, security updates, backups and a monthly block of support time for any website or app, including ones we didn't build.",
+    "features": [
+      "Hosting with daily backups",
+      "Security and software updates",
+      "Uptime monitoring with alerts",
+      "4 hours of changes or fixes per month",
+      "Monthly report by email"
+    ],
+    "delivery": "Onboarding call within 2 business days. Billed monthly, cancel with 30 days' notice."
+  }
+]

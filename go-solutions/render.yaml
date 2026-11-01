@@ -1,0 +1,23 @@
+# Render Blueprint: New > Blueprint > pick this repo. Render asks for the values marked sync: false.
+services:
+  - type: web
+    name: go-solutions
+    runtime: node
+    plan: free            # change to starter ($7/mo, always on) before real customers
+    region: singapore     # closest Render region to Malaysia and China
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/catalog
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DATABASE_URL       # Aiven > your MySQL service > Service URI
+        sync: false
+      - key: DB_CA_CERT         # Aiven > your MySQL service > CA certificate (paste all of it)
+        sync: false
+      - key: ADMIN_PASSWORD     # 10+ characters, for /admin
+        sync: false
+      - key: PAYMENT_SANDBOX    # "on" while demoing. Delete it before real customers.
+        sync: false

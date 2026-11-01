@@ -1,0 +1,23 @@
+{
+  "name": "go-solutions-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Go Solutions website: storefront, checkout, order tracking and admin dashboard.",
+  "main": "server.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build:preview": "node scripts/build-preview.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "mysql2": "^3.14.0",
+    "nodemailer": "^6.10.0"
+  }
+}
